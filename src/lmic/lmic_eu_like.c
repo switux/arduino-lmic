@@ -31,7 +31,7 @@
 #include "lmic_bandplan.h"
 
 #if CFG_LMIC_EU_like
-
+extern int LMIC_join_dr;
 bit_t LMIC_enableSubBand(u1_t band) {
         LMIC_API_PARAMETER(band);
         return 0;

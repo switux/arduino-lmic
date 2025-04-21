@@ -31,6 +31,9 @@
 #include "lmic_bandplan.h"
 
 #if defined(CFG_eu868)
+
+enum _dr_eu868_t LMIC_join_dr = 	EU868_DR_SF7;
+
 // ================================================================================
 //
 // BEG: EU868 related stuff

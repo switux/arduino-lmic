@@ -125,6 +125,8 @@ enum _dr_code_t {
 
 #if defined(CFG_eu868) // ==============================================
 
+#define	ARDUINO_LMIC_OVERRIDE_INITIAL_JOIN_DR
+
 #include "lorabase_eu868.h"
 
 // per 2.1.3: not implemented
